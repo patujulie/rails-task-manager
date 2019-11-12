@@ -1,3 +1,28 @@
 // Place all the styles related to the Task controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#mytask {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Liu Jian Mao Cao', cursive;
+  margin-top: 10px;
+  color: lightslategray;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.container {
+  margin-left: 250px;
+  margin-right: 250px
+}
+
+.title {
+  text-align: left;
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 24px;
+  color: black;
+}
+
+.checkbox {
+font-size :10px;
+}
