@@ -1,0 +1,4 @@
+<p><%= "#{@task.title} , #{@task.details} completed: #{@task.completed ? 'Y' : 'N'}"  %></p>
+<%= link_to "return to tasks", tasks_path %>
+<%= link_to "Edit the task", edit_path(@task) %>
+
